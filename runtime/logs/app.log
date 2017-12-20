@@ -1,0 +1,1796 @@
+2017-12-18 13:32:36 [::1][-][ermu1q83u8dpsfjst7rta2rif3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\Sucursal' not found' in C:\xampp\htdocs\erp\models\User.php:69
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-12-18 13:32:36 [::1][-][ermu1q83u8dpsfjst7rta2rif3][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'SskDmQCU1YrOIXX99tTTU6bkGvubEtRYFfzneRuegig-rlXUbNHh7P5COI6Boak6ka9fr_9fi20jjqADKKvzQA=='
+    'Generator' => [
+        'modelClass' => 'app\\models\\User'
+        'searchModelClass' => 'app\\models\\UserSearch'
+        'controllerClass' => 'app\\controllers\\UserController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ermu1q83u8dpsfjst7rta2rif3'
+    '_csrf' => '4e229ceafb8531a3a41286aed4371089b07461248ea8e50deaa62b74a8b65f82a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgVMlE4f0cMswuzi7KETdM_56rGz35qh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '519'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=ermu1q83u8dpsfjst7rta2rif3; _csrf=4e229ceafb8531a3a41286aed4371089b07461248ea8e50deaa62b74a8b65f82a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgVMlE4f0cMswuzi7KETdM_56rGz35qh%22%3B%7D'
+    'PATH' => 'c:\\programdata\\oracle\\java\\javapath;c:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;c:\\windows\\system32;c:\\windows;c:\\windows\\system32\\wbem;c:\\windows\\system32\\windowspowershell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\BaseX\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\David Prados\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\David Prados\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\David Prados\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '56320'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/erp/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513600356.508
+    'REQUEST_TIME' => 1513600356
+]
+2017-12-19 18:34:11 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/menu in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('menu', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/menu', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 18:34:10 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/menu'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '53860'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmenu'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fmenu'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513704850.989
+    'REQUEST_TIME' => 1513704850
+]
+2017-12-19 18:34:27 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/menu in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('menu', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/menu', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 18:34:27 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/menu'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '53900'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmenu'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fmenu'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513704867.427
+    'REQUEST_TIME' => 1513704867
+]
+2017-12-19 18:34:30 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/panel in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('panel', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/panel', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 18:34:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/panel'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '53900'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpanel'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fpanel'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513704870.507
+    'REQUEST_TIME' => 1513704870
+]
+2017-12-19 18:35:35 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/panel in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('panel', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/panel', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 18:35:35 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/panel'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '53928'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpanel'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fpanel'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513704935.453
+    'REQUEST_TIME' => 1513704935
+]
+2017-12-19 18:36:21 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/panel in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('panel', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/panel', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 18:36:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/panel'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '53957'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpanel'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fpanel'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513704981.436
+    'REQUEST_TIME' => 1513704981
+]
+2017-12-19 18:38:31 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/panel in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('panel', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/panel', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 18:38:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/panel'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '53996'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpanel'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fpanel'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513705111.525
+    'REQUEST_TIME' => 1513705111
+]
+2017-12-19 18:38:59 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/panel in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('panel', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/panel', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 18:38:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/panel'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '54002'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpanel'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fpanel'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513705139.594
+    'REQUEST_TIME' => 1513705139
+]
+2017-12-19 18:40:56 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/panel in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('panel', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/panel', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 18:40:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/panel'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '54035'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpanel'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fpanel'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513705256.581
+    'REQUEST_TIME' => 1513705256
+]
+2017-12-19 19:20:13 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/menu in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('menu', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/menu', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:20:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/menu'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '54964'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmenu'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fmenu'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707613.267
+    'REQUEST_TIME' => 1513707613
+]
+2017-12-19 19:20:21 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/panel in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('panel', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/panel', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:20:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/panel'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '54969'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fpanel'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fpanel'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707621.223
+    'REQUEST_TIME' => 1513707621
+]
+2017-12-19 19:21:58 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\erp\views\layouts\main.php:106
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\xampp\htdocs\erp\controllers\SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-12-19 19:21:58 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '54997'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/erp/web/index.php'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707718.192
+    'REQUEST_TIME' => 1513707718
+]
+2017-12-19 19:22:20 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\erp\views\layouts\main.php:108
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\xampp\htdocs\erp\controllers\SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-12-19 19:22:20 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55008'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/erp/web/index.php'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707740.489
+    'REQUEST_TIME' => 1513707740
+]
+2017-12-19 19:22:33 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\erp\views\layouts\main.php:106
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\xampp\htdocs\erp\controllers\SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-12-19 19:22:33 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55020'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/erp/web/index.php'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707753.75
+    'REQUEST_TIME' => 1513707753
+]
+2017-12-19 19:22:47 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\erp\views\layouts\main.php:108
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\xampp\htdocs\erp\controllers\SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-12-19 19:22:47 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55029'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/erp/web/index.php'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707767.131
+    'REQUEST_TIME' => 1513707767
+]
+2017-12-19 19:24:47 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\erp\views\layouts\main.php:83
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\xampp\htdocs\erp\controllers\SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-12-19 19:24:47 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55077'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/erp/web/index.php'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707887.336
+    'REQUEST_TIME' => 1513707887
+]
+2017-12-19 19:25:11 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\erp\views\layouts\main.php:82
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\xampp\htdocs\erp\controllers\SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-12-19 19:25:11 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/erp/web/index.php'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707911.524
+    'REQUEST_TIME' => 1513707911
+]
+2017-12-19 19:25:22 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\erp\views\layouts\main.php:83
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\xampp\htdocs\erp\controllers\SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-12-19 19:25:22 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55115'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/erp/web/index.php'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707922.342
+    'REQUEST_TIME' => 1513707922
+]
+2017-12-19 19:25:31 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ']' in C:\xampp\htdocs\erp\views\layouts\main.php:84
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#3 C:\xampp\htdocs\erp\controllers\SiteController.php(64): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-12-19 19:25:31 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55124'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/erp/web/index.php'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513707931.72
+    'REQUEST_TIME' => 1513707931
+]
+2017-12-19 19:37:27 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/menu in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('menu', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/menu', Array)
+#2 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:37:27 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/menu'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55372'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmenu'
+    'REQUEST_URI' => '/erp/web/index.php?r=site%2Fmenu'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513708647.871
+    'REQUEST_TIME' => 1513708647
+]
+2017-12-19 19:38:39 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Cantidad/index". in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('Cantidad/index', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:38:39 [::1][-][-][info][application] $_GET = [
+    'r' => 'Cantidad/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php?r=caja%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Cantidad%2Findex'
+    'REQUEST_URI' => '/erp/web/index.php?r=Cantidad%2Findex'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513708719.615
+    'REQUEST_TIME' => 1513708719
+]
+2017-12-19 19:39:28 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Cantidad/index". in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('Cantidad/index', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:39:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'Cantidad/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php?r=caja%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55402'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Cantidad%2Findex'
+    'REQUEST_URI' => '/erp/web/index.php?r=Cantidad%2Findex'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513708768.267
+    'REQUEST_TIME' => 1513708768
+]
+2017-12-19 19:39:30 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "placas/index". in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('placas/index', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:39:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'placas/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php?r=Cantidad%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55402'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=placas%2Findex'
+    'REQUEST_URI' => '/erp/web/index.php?r=placas%2Findex'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513708770.298
+    'REQUEST_TIME' => 1513708770
+]
+2017-12-19 19:40:15 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Cliente/index". in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('Cliente/index', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:40:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'Cliente/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php?r='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55421'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Cliente%2Findex'
+    'REQUEST_URI' => '/erp/web/index.php?r=Cliente%2Findex'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513708815.248
+    'REQUEST_TIME' => 1513708815
+]
+2017-12-19 19:40:22 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Cliente/index". in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('Cliente/index', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:40:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'Cliente/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php?r='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55427'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Cliente%2Findex'
+    'REQUEST_URI' => '/erp/web/index.php?r=Cliente%2Findex'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513708822.557
+    'REQUEST_TIME' => 1513708822
+]
+2017-12-19 19:40:23 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Cliente/index". in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('Cliente/index', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:40:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'Cliente/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php?r='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55427'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Cliente%2Findex'
+    'REQUEST_URI' => '/erp/web/index.php?r=Cliente%2Findex'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513708823.507
+    'REQUEST_TIME' => 1513708823
+]
+2017-12-19 19:40:24 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "Cliente/index". in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('Cliente/index', Array)
+#1 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\erp\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\erp\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\erp\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-12-19 19:40:24 [::1][-][-][info][application] $_GET = [
+    'r' => 'Cliente/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1jLQvN3Su-GTyHx1XwwZkaFTKVHbO694\";}'
+    'menuIsCollapsed' => 'false'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/erp/web/index.php?r='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=397e63196e6bef4f17ac71d0f7b6772d8de1a19231f38463c7a9c702150dbfb7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221jLQvN3Su-GTyHx1XwwZkaFTKVHbO694%22%3B%7D; menuIsCollapsed=false'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Acer\\Remote Files\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Guillermo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Guillermo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/erp/web/index.php'
+    'REMOTE_PORT' => '55427'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Cliente%2Findex'
+    'REQUEST_URI' => '/erp/web/index.php?r=Cliente%2Findex'
+    'SCRIPT_NAME' => '/erp/web/index.php'
+    'PHP_SELF' => '/erp/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1513708824.713
+    'REQUEST_TIME' => 1513708824
+]
